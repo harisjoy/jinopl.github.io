@@ -1,18 +1,29 @@
 #intro{
-    position:absolute;
+    position:fixed;
     left: 3%;
-    top: 25%;
-    padding: 0 20px;
+    top: 50%;
+    padding: 0 0px;
     width: 100vw;
-    color: beige;
+    color: white;
     font-size: 3vw;
 }
 
-#particles-js{
-    width: 100vw;
-    height:100vw;
-    background-color:#00100d;
+#particles-js {
+  background: #1a222c;
+  display: flex;
+  vertical-align: bottom;
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
+#particles-js .particles-js-canvas-el {
+  width: 100% !important;
+  height: 100vh !important;
+}
+
+
 #intro h1{
   padding-left: 0%;
   margin-top: 10px;  
@@ -23,6 +34,34 @@
   font-weight: bold;
 }
 
-#link{
-  right: 3%;
+span#link {
+  right: 0%;
+  left: auto;
+  width: 100vw;
+  color: white;
+  font-size: 3vw;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
 }
