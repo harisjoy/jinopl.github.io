@@ -1,13 +1,3 @@
-#intro{
-    position:fixed;
-    left: 3%;
-    top: 50%;
-    padding: 0 0px;
-    width: 100vw;
-    color: white;
-    font-size: 3vw;
-}
-
 #particles-js {
   background: #1a222c;
   display: flex;
@@ -17,29 +7,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  margin-left: 0;
 }
 #particles-js .particles-js-canvas-el {
   width: 100% !important;
   height: 100vh !important;
-}
-
-
-#intro h1{
-  padding-left: 0%;
-  margin-top: 10px;  
-  letter-spacing: 5px;
-  font-size: 5vw;
-  font-family: "sofia";
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-span#link {
-  right: 0%;
-  left: auto;
-  width: 100vw;
-  color: white;
-  font-size: 3vw;
 }
 
 a:link {
@@ -65,3 +37,56 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+
+
+#main{
+  color: white;
+}
+
+#intro{
+  position:fixed;
+  left: 8%;
+  top: 35%;
+  padding: 0 0px;
+  width: 100vw;
+  color: white;
+  font-size: 3vw;
+  font-family: 'Dancing Script';
+}
+
+#in {
+  font-size: 3vw;
+}
+
+#sname {
+  font-size: 5vw;
+}
+
+
+#link {
+ float:right;
+ padding-right: 25%;
+}
+
+
+
+
+/*
+#introtitle{
+  padding-left: 0%;
+  margin-top: 10px;  
+  letter-spacing: 5px;
+  font-size: 5vw;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#link {
+  right: 0%;
+  left: 0%;
+  width: 100vw;
+  color: white;
+  font-size: 3vw;
+}
+*/
